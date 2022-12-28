@@ -1,0 +1,43 @@
+/* body */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.btn button{
+    border: none;
+    border-radius: 0px;
+    padding: 10px 30px 10px 30px;
+}
+button{
+    font-family: 'GraphickLCG-regular', sans-serif;
+    font-size: 14px;
+}
+a{
+    font-family: 'GraphickLCG-regular', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+h1{
+    font-family: 'GraphickLCG-semibold', sans-serif;
+}
+h2{
+    font-family: 'GraphickLCG-semibold', sans-serif;
+}
+h4{
+    font-family: 'GraphickLCG-semibold', sans-serif;
+}
+p{
+    font-family: 'GraphickLCG-regular', sans-serif;
+}
+span{
+    font-family: 'GraphickLCG-regular', sans-serif;
+}
+a:hover{
+    opacity: 0.3;
+}
+button:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}

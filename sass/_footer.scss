@@ -1,0 +1,32 @@
+/* footer */
+.footer{
+    position: relative;
+    top: 750px;
+    background-color: #EEEEEE;
+}
+.foot_left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.foot_left .foot_item{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+}
+.foot_left .foot_item p{
+    max-width: 300px;
+}
+.foot_right{
+    display: flex;
+    justify-content: flex-end;
+}
+.foot_right .foot_item{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 25px;
+}

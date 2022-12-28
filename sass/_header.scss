@@ -1,0 +1,39 @@
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid gray;}
+.header img{
+    padding-left: 2rem;
+}
+.header nav ul{
+    display: flex;
+    justify-content: center;
+}
+.header nav ul li {
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+.header .btn{
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+.header .btn button:first-child{
+    border: 1px solid rgba(90, 32, 32, 0.5);
+    border-radius: 0px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    background-color: #fff;
+}
+.header .btn button:last-child{
+    border: none;
+    border-radius: 0px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    background: #FF6336;
+    color: #fff;
+}

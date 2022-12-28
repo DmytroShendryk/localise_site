@@ -1,0 +1,52 @@
+/* top block */
+.top_block{
+    display: block;
+    position: relative;
+    top: 2rem;
+}
+.top_block img{
+    position: absolute;
+    top: 4rem;
+    left: 580px;
+}
+.top_block .tb_content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 600px;
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+}
+.top_block h1{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    max-width: 580px;
+}
+.top_block p{
+    font-size: 25px;
+    max-width: 480px;
+}
+.top_block .btn{
+    display: flex;
+    gap: 1rem;
+}
+.top_block .btn button:first-child{
+    border: none;
+    border-radius: 0px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    background: #FF6336;
+    color: #fff;
+}
+.top_block .btn button:last-child{
+    border: 1px solid rgba(90, 32, 32, 0.5);
+    border-radius: 0px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.top_block span{
+    font-size: 14px;
+}

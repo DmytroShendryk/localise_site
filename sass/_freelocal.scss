@@ -1,0 +1,33 @@
+/* freelocal */
+.freelocal{
+    position: relative;
+    width: 100%;
+    top: 750px;
+    max-height: 1000px;
+    background-color: #FF9C7D;
+    padding-top: 6rem;
+    padding-bottom: 25rem;
+}
+.freelocal h1{
+    font-size: 65px;
+    max-width: 860px;
+    text-align: center;
+    position: absolute;
+    left: 14rem;
+}
+.freelocal p{
+    font-size: 20px;
+    position: absolute;
+    left: 28rem;
+    bottom: 12rem;
+}
+.freelocal .btn{
+    position: absolute;
+    bottom: 6rem;
+    left: 36rem;
+}
+.freelocal .btn button{
+    background-color: #000;
+    color: #fff;
+    padding: 15px 40px 15px 40px;
+}

@@ -1,0 +1,24 @@
+/* company block */
+.company_block{
+    display: block;
+    position: relative;
+    top: 330px;
+    background-color: #FF9C7D;
+    height: 340px;
+}
+.company_block h1{
+    text-align: center;
+    max-width: 780px;
+    font-size: 60px;
+    position: absolute;
+    top: 2rem;
+    left: 18rem;
+}
+.company_block .image_row{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    position: absolute;
+    top: 14rem;
+    left: 12rem;
+}

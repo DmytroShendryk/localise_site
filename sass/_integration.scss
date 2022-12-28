@@ -1,0 +1,37 @@
+/* integraition */
+.integration{
+    position: relative;
+    top: 700px;
+    height: 100%;
+    max-height: 1000px;
+    margin-bottom: 4rem;
+}
+.integration h1{
+    position: relative;
+    left: 22rem;
+    font-size: 65px;
+    max-width: 660px;
+    text-align: center;
+}
+.integration p{
+    position: relative;
+    left: 22rem;
+    font-size: 25px;
+    max-width: 600px;
+    text-align: center;
+}
+.integration img{
+    position: relative;
+    left: 10rem;
+}
+.integration .btn button{
+    border: none;
+    border-radius: 0px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    background: #FF6336;
+    color: #fff;
+    position: absolute;
+    left: 35rem;
+    bottom: -3rem;
+}
