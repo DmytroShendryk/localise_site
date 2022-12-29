@@ -247,7 +247,7 @@ button:hover {
 }
 
 .hint_block img {
-  width: 500px;
+  width: 450px;
 }
 
 /* cards */
@@ -1515,9 +1515,7 @@ button:hover {
     font-size: 25px;
   }
   .quote .quote_image_container {
-    position: absolute;
-    left: 28rem;
-    top: 1rem;
+    position: static;
   }
   .favsoft {
     position: relative;

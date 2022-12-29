@@ -933,9 +933,7 @@
             font-size: 25px;
         }
         .quote_image_container {
-            position: absolute;
-            left: 28rem;
-            top: 1rem;
+            position: static;
         }
     }
     .favsoft {
