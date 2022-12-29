@@ -2,7 +2,7 @@
 .prefooter{
     display: flex;
     align-items: flex-start;
-    gap: 10rem;
+    gap: 4rem;
     position: relative;
     top: 750px;
     width: 100%;
@@ -11,6 +11,9 @@
     border-bottom: 1px solid black;
     padding-top: 5rem;
     padding-bottom: 3rem;
+}
+.prefooter_card{
+    padding-left: 2rem;
 }
 .prefooter_card .card_item{
     display: flex;
